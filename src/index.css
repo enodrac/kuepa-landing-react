@@ -1,13 +1,125 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: #101112;
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    @keyframes fadeFromBottom {
+        from {
+            opacity: 0;
+            transform: translateY(100%);
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes expand {
+        from {
+            width: 0%;
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+            width: 100%;
+        }
+    }
+
+    @keyframes fadeToColorKuepa {
+        from {
+            color: white;
+        }
+
+        to {
+            color: #fd531e;
+        }
+    }
+
+    @keyframes fadeToColorWhite {
+        from {
+            color: #fd531e;
+        }
+
+        to {
+            color: white;
+        }
+    }
+
+    @keyframes scroll {
+        0% {
+            opacity: 1;
+            transform: translate(100%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translate(-100%);
+        }
+    }
+
+    @keyframes scroll_up_1 {
+        0% {
+            transform: translateY(5%);
+        }
+
+        75% {
+            transform: translateY(-92%);
+        }
+
+        100% {
+            transform: translateY(-86%);
+        }
+    }
+
+    @keyframes scroll_up_2 {
+        0% {
+            transform: translateY(5%);
+        }
+
+        75% {
+            transform: translateY(-98%);
+        }
+
+        100% {
+            transform: translateY(-91%);
+        }
+    }
+
+    @keyframes scroll_up_3 {
+        0% {
+            transform: translateY(5%);
+        }
+
+        75% {
+            transform: translateY(-96%);
+        }
+
+        100% {
+            transform: translateY(-89%);
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
