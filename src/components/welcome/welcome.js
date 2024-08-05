@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Animator from '../../animator/animator';
-import estudiantesMobile from '../../assets/icons/estudiantesMobile.png'
+// import estudiantesMobile from '../../assets/icons/estudiantesMobile.png'
+import estudiantesMobile from '../../assets/icons/facebook.png'
 // import RegisterService from '@/services/kuepaServices/registerService';
 import "./welcome.css";;
 
@@ -16,23 +17,23 @@ const Welcome = () => {
   const handleSubmit = async () => {
     setLoading(true)
 
-    let isVirtual
-    let insertPanel = false
-    let insertCRM = false
-    if (window.location.pathname === "/bachillerato-virtual" || window.location.pathname === "/ingles" || window.location.pathname === "/ingles-corporativo") {
-      isVirtual = true
-    }
-    else {
-      isVirtual = false
-    }
+    // let isVirtual
+    // let insertPanel = false
+    // let insertCRM = false
+    // if (window.location.pathname === "/bachillerato-virtual" || window.location.pathname === "/ingles" || window.location.pathname === "/ingles-corporativo") {
+    //   isVirtual = true
+    // }
+    // else {
+    //   isVirtual = false
+    // }
 
 
-    const formData = {
-      ...data,
-      isVirtual,
-      insertPanel,
-      insertCRM,
-    }
+    // const formData = {
+    //   ...data,
+    //   isVirtual,
+    //   insertPanel,
+    //   insertCRM,
+    // }
 
     // const register: any = await registerService.registerNewUserInProgram(formData)
 

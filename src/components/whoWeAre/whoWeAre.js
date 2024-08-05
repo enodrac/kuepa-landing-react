@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import ketKuepaEduTechLogoV2 from '../../assets/icons/ketKuepaEduTechLogoV2.png'
+// import ketKuepaEduTechLogoV2 from '../../assets/icons/ketKuepaEduTechLogoV2.png'
+import ketKuepaEduTechLogoV2 from '../../assets/icons/facebook.png'
 import "./whoWeAre.css";;
 
 const WhoWeAre = () => {

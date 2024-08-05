@@ -1,10 +1,16 @@
 import React from 'react';
-import kuepaLogo from '../../assets/icons/kuepaLogo.svg'
-import footerLogos from '../../assets/icons/footerLogos.svg'
-import instagramLogo from '../../assets/icons/instagramLogo.svg'
-import facebookLogo from '../../assets/icons/facebookLogo.svg'
-import tiktokLogo from '../../assets/icons/tiktokLogo.svg'
-import linkedInLogo from '../../assets/icons/linkedInLogo.svg'
+// import kuepaLogo from '../../assets/icons/kuepaLogo.svg'
+import kuepaLogo from '../../assets/icons/facebook.png'
+// import footerLogos from '../../assets/icons/footerLogos.svg'
+import footerLogos from '../../assets/icons/facebook.png'
+// import instagramLogo from '../../assets/icons/instagramLogo.svg'
+import instagramLogo from '../../assets/icons/facebook.png'
+// import facebookLogo from '../../assets/icons/facebookLogo.svg'
+import facebookLogo from '../../assets/icons/facebook.png'
+// import tiktokLogo from '../../assets/icons/tiktokLogo.svg'
+import tiktokLogo from '../../assets/icons/facebook.png'
+// import linkedInLogo from '../../assets/icons/linkedInLogo.svg'
+import linkedInLogo from '../../assets/icons/facebook.png'
 import "./footer.css";;
 
 const Footer = () => {

@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import methodologyM1 from '../../assets/icons/methodologyM1.svg'
-import methodologyM2 from '../../assets/icons/methodologyM2.svg'
-import methodologyM3 from '../../assets/icons/methodologyM3.svg'
-import methodologyM4 from '../../assets/icons/methodologyM4.svg'
+// import methodologyM1 from '../../assets/icons/methodologyM1.svg'
+import methodologyM1 from '../../assets/icons/facebook.png'
+// import methodologyM2 from '../../assets/icons/methodologyM2.svg'
+import methodologyM2 from '../../assets/icons/facebook.png'
+// import methodologyM3 from '../../assets/icons/methodologyM3.svg'
+import methodologyM3 from '../../assets/icons/facebook.png'
+// import methodologyM4 from '../../assets/icons/methodologyM4.svg'
+import methodologyM4 from '../../assets/icons/facebook.png'
 
 import "./methodology.css";;
 

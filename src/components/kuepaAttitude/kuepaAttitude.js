@@ -1,10 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import espirituJoven from '../../assets/icons/espirituJovenV2.svg'
-import transparencia from '../../assets/icons/transparenciaV2.svg'
-import profecionalismo from '../../assets/icons/profecionalismoV2.svg'
-import espírituEmprendedor from '../../assets/icons/espírituEmprendedorV2.svg'
-import ejemplo from '../../assets/icons/ejemploV2.svg'
-import eficiencia from '../../assets/icons/eficienciaV2.svg'
+// import espirituJoven from '../../assets/icons/espirituJovenV2.svg'
+import espirituJoven from '../../assets/icons/facebook.png'
+// import transparencia from '../../assets/icons/transparenciaV2.svg'
+import transparencia from '../../assets/icons/facebook.png'
+// import profecionalismo from '../../assets/icons/profecionalismoV2.svg'
+import profecionalismo from '../../assets/icons/facebook.png'
+// import espírituEmprendedor from '../../assets/icons/espírituEmprendedorV2.svg'
+import espírituEmprendedor from '../../assets/icons/facebook.png'
+// import ejemplo from '../../assets/icons/ejemploV2.svg'
+import ejemplo from '../../assets/icons/facebook.png'
+// import eficiencia from '../../assets/icons/eficienciaV2.svg'
+import eficiencia from '../../assets/icons/facebook.png'
 import "./kuepaAttitude.css";;
 
 const KuepaAttitude = () => {

@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
-import bachilleratosMobile from '../../assets/icons/bachilleratosMobile.png'
-import tecnicosLaboralesMobile from '../../assets/icons/tecnicosLaboralesMobile.png'
+// import bachilleratosMobile from '../../assets/icons/bachilleratosMobile.png'
+import bachilleratosMobile from '../../assets/icons/facebook.png'
+// import tecnicosLaboralesMobile from '../../assets/icons/tecnicosLaboralesMobile.png'
+import tecnicosLaboralesMobile from '../../assets/icons/facebook.png'
 import "./ourPrograms.css";;
 
 const OurPrograms = () => {

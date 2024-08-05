@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 
 import "./navBar.css";
-import arrowDown from '../../assets/icons/arrowDown.svg'
-import kuepaWhiteLogo from '../../assets/icons/kuepaWhiteLogo.svg'
-import burgerIcon from '../../assets/icons/burgerIcon.svg'
+// import arrowDown from '../../assets/icons/arrowDown.svg'
+import arrowDown from '../../assets/icons/facebook.png'
+// import kuepaWhiteLogo from '../../assets/icons/kuepaWhiteLogo.svg'
+import kuepaWhiteLogo from '../../assets/icons/facebook.png'
+// import burgerIcon from '../../assets/icons/burgerIcon.svg'
+import burgerIcon from '../../assets/icons/facebook.png'
 
 const NavBar = () => {
 

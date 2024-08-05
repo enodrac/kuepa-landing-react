@@ -1,6 +1,8 @@
 import React from 'react';
-import calle72 from '../../assets/icons/calle72.svg'
-import calle85 from '../../assets/icons/calle85.svg'
+// import calle72 from '../../assets/icons/calle72.svg'
+import calle72 from '../../assets/icons/facebook.png'
+// import calle85 from '../../assets/icons/calle85.svg'
+import calle85 from '../../assets/icons/facebook.png'
 import "./headquarters.css";;
 
 const Headquarters = () => {

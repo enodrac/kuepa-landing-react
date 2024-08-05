@@ -1,12 +1,20 @@
 import React, { useState } from 'react';
-import close from '../../assets/icons/close.svg'
-import katrinAvatar from '../../assets/icons/katrinAvatar.svg'
-import samuelAvatar from '../../assets/icons/samuelAvatar.svg'
-import alisonAvatar from '../../assets/icons/alisonAvatar.svg'
-import niniAvatar from '../../assets/icons/niniAvatar.svg'
-import jonathanAvatar from '../../assets/icons/jonathanAvatar.svg'
-import play from '../../assets/icons/play.svg'
-import cuotes from '../../assets/icons/cuotes.svg'
+// import close from '../../assets/icons/close.svg'
+import close from '../../assets/icons/facebook.png'
+// import katrinAvatar from '../../assets/icons/katrinAvatar.svg'
+import katrinAvatar from '../../assets/icons/facebook.png'
+// import samuelAvatar from '../../assets/icons/samuelAvatar.svg'
+import samuelAvatar from '../../assets/icons/facebook.png'
+// import alisonAvatar from '../../assets/icons/alisonAvatar.svg'
+import alisonAvatar from '../../assets/icons/facebook.png'
+// import niniAvatar from '../../assets/icons/niniAvatar.svg'
+import niniAvatar from '../../assets/icons/facebook.png'
+// import jonathanAvatar from '../../assets/icons/jonathanAvatar.svg'
+import jonathanAvatar from '../../assets/icons/facebook.png'
+// import play from '../../assets/icons/play.svg'
+import play from '../../assets/icons/facebook.png'
+// import cuotes from '../../assets/icons/cuotes.svg'
+import cuotes from '../../assets/icons/facebook.png'
 import "./ourStories.css";;
 
 const OurStories = () => {
