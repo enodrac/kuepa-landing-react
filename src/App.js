@@ -1,32 +1,36 @@
+import React, { lazy, Suspense } from 'react'
 import './App.css';
-import NavBar from './components/navBar/navBar'
-import Welcome from './components/welcome/welcome'
-import OurPrograms from './components/ourPrograms/ourPrograms'
-import ProgramsStats from './components/programsStats/programsStats'
-import Methodology from './components/methodology/methodology'
-import OurStories from './components/ourStories/ourStories'
-import WhoWeAre from './components/whoWeAre/whoWeAre'
-import KuepaAttitude from './components/kuepaAttitude/kuepaAttitude'
-import Headquarters from './components/headquarters/headquarters'
-import Blogs from './components/blogs/blogs'
-import Footer from './components/footer/footer'
+
+const NavBar = lazy(() => import('./components/navBar/navBar'))
+const Welcome = lazy(() => import('./components/welcome/welcome'))
+const OurPrograms = lazy(() => import('./components/ourPrograms/ourPrograms'))
+const ProgramsStats = lazy(() => import('./components/programsStats/programsStats'))
+const Methodology = lazy(() => import('./components/methodology/methodology'))
+const OurStories = lazy(() => import('./components/ourStories/ourStories'))
+const WhoWeAre = lazy(() => import('./components/whoWeAre/whoWeAre'))
+const KuepaAttitude = lazy(() => import('./components/kuepaAttitude/kuepaAttitude'))
+const Headquarters = lazy(() => import('./components/headquarters/headquarters'))
+const Blogs = lazy(() => import('./components/blogs/blogs'))
+const Footer = lazy(() => import('./components/footer/footer'))
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <div className={`content`}>
-        <Welcome />
-        <OurPrograms />
-        <ProgramsStats />
-        <Methodology />
-        <OurStories />
-        <WhoWeAre />
-        <KuepaAttitude />
-        <Headquarters />
-        <Blogs />
-        <Footer />
-      </div>
+      <Suspense fallback={<div>cargando...</div>}>
+        <NavBar />
+        <div className={`content`}>
+          <Welcome />
+          <OurPrograms />
+          <ProgramsStats />
+          <Methodology />
+          <OurStories />
+          <WhoWeAre />
+          <KuepaAttitude />
+          <Headquarters />
+          <Blogs />
+          <Footer />
+        </div>
+      </Suspense>
     </div>
   );
 }
